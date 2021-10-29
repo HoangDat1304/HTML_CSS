@@ -1,0 +1,145 @@
+body { 
+display: block;
+}
+.images{
+    width: 1000px;
+    height: 500px;
+    padding-left: 172px;
+}
+.header_menu{
+ display: flex;  
+}
+.header_menu li{
+    list-style: none;
+}
+.header_menu a{
+    padding-left: 25px;
+}
+.header_menu-right{
+    padding-left: 515px;
+}
+.header_menu-left{   
+    padding-left: 125px;
+}
+.container-banner h2 {
+    color: #fff;
+position: absolute;
+padding-top: 146px;
+padding-left: 100px;
+
+}
+.container-banner p{
+    color: #fff;
+    position: absolute;
+    padding-top: 210px; 
+    padding-left: 100px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.images{  
+    width: 250px;
+    height: 140px;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.container-banner img{
+ width: 100%;
+}
+.overview{
+    width: 100%;
+    background-color: rgb(153, 156, 161);
+}
+.container_neighborhood h2{
+    padding-left: 100px;
+    font-size: 40px; 
+}
+.container_neighborhood p{
+    padding-left: 100px;
+    font-size: 20px; 
+}
+.column-right image{
+    height: 303px;
+}
+.column{
+    display: flex;
+    padding-bottom: 20px;
+}
+.image{
+    width: 290px;
+    height: 316px;
+    padding-right: 61px;
+    padding-top: 20px;
+}
+.all-content{
+    display: flex;
+    background-color: rgb(200, 207, 207);
+    margin-right: 52px;
+    width: 100%;
+}
+.content h2{
+    font-size: 20px;
+}
+.content{  
+    padding-left: 93px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    body { 
+        width: auto;
+        }
+        .header_menu{
+            display: grid; 
+            grid-template-columns: 1fr 1fr;
+            background: black;
+            color:#fff;
+           }
+           .header_menu li{
+               list-style: none;
+           }
+           .header_menu a{
+               padding-left: 25px;
+           }
+          .header_menu-right{
+              padding: 0px;
+          }
+          .header_menu-left{
+              padding: 0px;
+          }
+          .column-right img{
+              /* margin-left: 20px; */
+              padding : 20px 61px 0px 100px;
+
+          }
+          .column-center img{
+              padding: 20px 61px 0px 0px;
+              
+          }
+          .column-left img{
+            padding : 20px 0px 0px 50px;
+
+          }
+     .column{
+         display: grid;
+         grid-template-columns: 1fr 1fr ;
+         margin: 0;
+         padding: 0;
+         width: 100%;
+     }
+     .all-content{
+         display: block;
+         background: #fff;
+         padding-top: 20px;
+     }
+     .content h2{
+         margin: 0;
+         padding: 0;
+     }
+     .title{
+         background: #fff;
+     }
+} 
+  
